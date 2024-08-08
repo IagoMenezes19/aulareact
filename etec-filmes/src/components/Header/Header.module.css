@@ -1,28 +1,30 @@
 .header{
-    background-color: black;
-    border-bottom: red 2px solid;
-    display: flex;
+    background-color: #000;
+    border-bottom: #f00 2px solid;
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0.5rem;
+    height: 68px;
+    display: flex;
+    padding-block: 0.75rem;
     font-size: 1.5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header span{
     font-size: 2rem;
-    color: white;
+    color: #f00;
     font-weight: 500;
 }
 
-.header nav{
-    margin-right: 3rem;
-}
+/* .header nav{
+    margin-right: 2rem;
+} */
 
 .header a{
     text-decoration: none;
-    color: white;
-    padding-inline: 1rem;
-} 
+    color: #fff;
+    padding-inline: 0.75rem;
+    font-size: 1.125rem;
+}
